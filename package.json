@@ -1,7 +1,7 @@
 {
   "name": "lakayselakay",
   "version": "1.0.0",
-  "description": "Un site pour trouver votre logement ou que vous soyez",
+  "description": "Un site pour trouver votre logement en Haiti.",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
