@@ -13,14 +13,14 @@
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette|Tangerine|Lobster|Caveat|Dancing+Script|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css">
     <title>Lakay Se Lakay</title>
 </head>
 
 <body>
     <!-- Adding the NavBar -->
-    <nav class="navbar navbar-expand-md navbar-dark py-2">
+    <nav class="navbar navbar-expand-md navbar-dark py-2 fixed-top">
         <div class="container">
             <a href="#home" class="navbar-brand">
                 <img src="img/mlogo.png" width="50" height="50" alt="">
@@ -53,7 +53,7 @@
     </nav>
 
     <!-- Adding the top Carousel -->
-    <section id="carSlider">
+    <header id="carSlider">
         <div id="siteCarousel" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#siteCarousel" data-slide-to="0" class="active"></li>
@@ -68,6 +68,54 @@
                 <div class="carousel-item carousel-image-4"></div>
             </div>
         </div>
+    </header>
+
+    <!-- Brands Slider -->
+
+
+    <!-- Latest Post Section -->
+    <section id="latestPost">
+        <div class="container">
+            <div class="row">
+                <div class="col py-3 text-center">
+                    <h3>Latest Posts</h3>
+                    <p class="latestPost">Find the latest added House, Terrain and Appartment here</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/mountains.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">House</h5>
+                            <p class="card-text text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit excepturi delectus reiciendis, ipsam quia, alias officiis dolore quo placeat voluptas quam iste architecto illum.</p>
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/mountains.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Appartment</h5>
+                            <p class="card-text text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit excepturi delectus reiciendis, ipsam quia, alias officiis dolore quo placeat voluptas quam iste architecto illum.</p>
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/mountains.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Terrain</h5>
+                            <p class="card-text text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit excepturi delectus reiciendis, ipsam quia, alias officiis dolore quo placeat voluptas quam iste architecto illum.</p>
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Newsletter Section to Subscribe -->
@@ -75,10 +123,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <input type="text" class="form-control mb-3" placeholder="Enter Name">
+                    <input type="text" class="form-control mb-resposive" placeholder="Enter Name">
                 </div>
                 <div class="col-md-4">
-                    <input type="email" class="form-control mb-3" placeholder="Enter Email">
+                    <input type="email" class="form-control mb-resposive" placeholder="Enter Email">
                 </div>
                 <div class="col-md-4">
                     <button type="submit" class="btn btn-outline-light btn-block">

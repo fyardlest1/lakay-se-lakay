@@ -2,6 +2,24 @@ body {
   font-family: "Open Sans", sans-serif; 
 }
 
+h1, h2, h3 {
+    font-family: "Courgette", cursive;
+} 
+
+#latestPost h3 {
+    color: #ef476f;
+    font-size: 2rem;
+}
+
+.latestPost {
+    font-family: "Caveat", sans-serif;
+    font-size: 2rem;
+}
+
+.card-text {
+    font-family: "Open Sans", sans-serif;
+}
+
 .navbar {
     background-color: #2F587B;
 }
@@ -28,7 +46,7 @@ body {
 }
 
 .carousel-item {
-    height: 450px;
+    height: 550px;
 }
 
 .carousel-image-1 {
@@ -51,3 +69,8 @@ body {
     background-size: cover;
 }
 
+.mb-resposive {
+    margin-bottom: 1rem;
+}
+
+/* Brands Slider Part */
