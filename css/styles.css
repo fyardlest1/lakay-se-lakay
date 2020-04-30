@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif; 
 }
 
-h1, h2, h3 {
+h1, h2, h3, .footerP {
     font-family: "Courgette", cursive;
 } 
 
@@ -74,3 +74,8 @@ h1, h2, h3 {
 }
 
 /* Brands Slider Part */
+
+
+.footer-row-1 {
+    border-bottom: #fff 1px solid;
+}
