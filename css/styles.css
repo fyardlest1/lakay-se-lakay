@@ -83,3 +83,23 @@ h1, h2, h3, .footerP {
 #contact1 {
     background: #ef476f;
 }
+
+/* Contact Form Section */
+#contactSection {
+    margin-top: 100px;
+}
+
+.contactUsSection {
+    font-family: "Dancing script", sans-serif;
+    font-size: 25px;
+}
+
+#contactSection h3 {
+    color: #ef476f;
+    font-size: 2rem;
+}
+
+.contactUsSection {
+    border-bottom: #ef476f 2px solid;
+    padding-bottom: 15px;
+}

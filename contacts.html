@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FYARDLEST FONTAWESOME KIT -->
+    <script src="https://kit.fontawesome.com/0966361850.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP FRAMEWORK -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- ADDITIONAL CSS MUST BE PLACED AFTER BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Courgette|Tangerine|Bangers|Lobster|Caveat|Dancing+Script|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Lakay Se Lakay</title>
+
+    <!-- GOOGLE RECAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdDKvEUAAAAAHGR6Z_WHl1d3_hrimW1xbQM-oYV
+    "></script>
+</head>
+
+<body>
+    <!-- ADDING THE NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark py-2 fixed-top">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <img src="img/mlogo.png" width="50" height="50" alt="" class="img-fluid">
+                <h3 class="d-inline align-middle">LAKAY-SE-LAKAY</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutus" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#login" class="nav-link">Sign In</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <i class="fas fa-search d-inline ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTACT SECTION -->
+    <section id="contactSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-9 py-3 text-center">
+                    <h3 class="getInTouch">Get In Touch</h3>
+                    <p class="contactUsSection mb-4">Please contact us if you need any further information</p>
+                    <form action="" class="form-group">
+                        <div class="form-group row">
+                            <div class="col-sm-2">
+                                <label for="inputName" class="col-form-label">Your Name</label>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="inputName" placeholder="First Name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="inputName" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-2">
+                                <label for="inputName" class="col-form-label">Phone #</label>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" class="form-control" id="inputName" placeholder="Area Code" value="+1">
+                            </div>
+                            <div class="col">
+                                <input type="tel" class="form-control" id="inputName" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmail" class="col-sm-2 col-form-label">Your Email</label>
+                            <div class="col">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="subject" class="col-sm-2 col-form-label">Subject</label>
+                            <div class="col">
+                                <select name="subject" id="subject" class="form-control" required>
+                                    <option selected>Select ...</option>
+                                    <option value="1">Informations</option>
+                                    <option value="2">Pour Ajouter Votre Pub</option>
+                                    <option value="3">Suggestions</option>
+                                    <option value="4">Autres</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="textArea" class="col-form-label col-sm-2">Message</label>
+                            <div class="col">
+                                <textarea name="textArea" id="textArea" class="form-control" rows="7" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2"></div>
+                            <div class="col">
+                                <button class="btn btn-info d-none d-block bnt-lg" type="submit">Submit Form</button>
+                            </div>
+                        </div>                        
+                    </form>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="page-footer font-small bg-dark text-white pt-4">
+        <div class="container-fluid text-center text-md-left px-5">
+            <div class="row">
+                <!-- Copyright -->
+                <div class="col-6 footer-copyright pt-2 pb-5">© 2020 Copyright -
+                    <a href="https://fyardlest.net/" class="text-warning"> FYARDLEST.NET</a>
+                </div>
+                <div class="col footer-copyright pt-2 pb-5">
+                    <ul class="list-unstyled list-inline float-right">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-fb mx-1">
+                                <i class="fab fa-facebook-f"> </i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-tw mx-1">
+                                <i class="fab fa-twitter"> </i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-gplus mx-1">
+                                <i class="fab fa-google-plus-g"> </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Text -->
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear())
+
+        // Google reCaptcha
+        grecaptcha.ready(function () {
+                grecaptcha.execute('6LdDKvEUAAAAAHGR6Z_WHl1d3_hrimW1xbQM-oYV', {
+                    action: 'contactPage'
+                });
+            });
+    </script>
+</body>
+
+</html>
