@@ -14,7 +14,7 @@
     <!-- ADDITIONAL CSS MUST BE PLACED AFTER BOOTSTRAP CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Courgette|Tangerine|Lobster|Caveat|Dancing+Script|Open+Sans" />
+        href="https://fonts.googleapis.com/css?family=Courgette|Tangerine|Bangers|Lobster|Caveat|Dancing+Script|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css">
     <title>Lakay Se Lakay</title>
 </head>
@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#aboutus" class="nav-link">About</a>
@@ -114,9 +114,7 @@
                         <img src="img/mountains.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Terrain</h5>
-                            <p class="card-text text-justify text-muted">Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Nulla suscipit excepturi delectus reiciendis, ipsam quia, alias
-                                officiis dolore quo placeat voluptas quam iste architecto illum.</p>
+                            <p class="card-text text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit excepturi delectus reiciendis, ipsam quia, alias officiis dolore quo placeat voluptas quam iste architecto illum.</p>
                             <a href="#" class="btn btn-info">Learn More</a>
                         </div>
                     </div>
@@ -146,7 +144,7 @@
     <!-- FOOTER SECTION -->
     <footer class="page-footer font-small bg-dark text-white pt-4">
         <div class="container-fluid text-center text-md-left px-5">
-            <div class="row footer-row-1">
+            <div class="row footer-row-1 pb-2">
                 <div class="col-md-4 mt-md-0 mt-3">
                     <h5 class="text-uppercase">Footer text 1</h5>
                     <p class="footerP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum esse fugiat. Itaque, culpa?</p>
@@ -161,15 +159,29 @@
                 <!-- Grid column -->
                 <hr class="clearfix w-100 d-md-none pb-3">
                 <!-- Grid column -->
-                <div class="col-md-4 mb-md-0 mb-3">
-                    <h5 class="text-uppercase">Footer text 3</h5>
-                    <p class="footerP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id excepturi hic.</p>
+                <div class="col-md-4 mb-md-0 mb-3" id="contact1">
+                    <h5 class="text-uppercase text-center mt-2">Contact Us</h5>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name1">Name</label>
+                            <input type="text" class="form-control" id="name1" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email1">Email address</label>
+                            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message1">Message</label>
+                            <textarea type="text" class="form-control" id="message1" placeholder="Message here" rows="4"></textarea>
+                        </div>
+                    </form>
                 </div>
             </div>
-
-            <div class="row">
+            <div class="row footer-row-2">
                 <!-- Copyright -->
-                <div class="col-6 footer-copyright py-3">© 2020 Copyright -
+                <div class="col-6 footer-copyright pt-2">© 2020 Copyright -
                     <a href="https://fyardlest.net/" class="text-warning"> FYARDLEST.NET</a>
                 </div>
                 <div class="col footer-copyright py-3">
