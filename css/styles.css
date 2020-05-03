@@ -65,8 +65,8 @@ h1, h2, h3, .footerP {
   background: #ef476f; }
 
 /* Contact Form Section */
-#contactSection {
-  margin-top: 100px; }
+#contactSection, #signInSection {
+  margin-top: 120px; }
 
 .contactUsSection {
   font-family: "Dancing script", sans-serif;
@@ -88,3 +88,26 @@ h1, h2, h3, .footerP {
 #findUs {
   background: #2F587B;
   opacity: 0.9; }
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center; }
+
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #CEC8FF; }
+
+.separator::before {
+  margin-right: .25em; }
+
+.separator::after {
+  margin-left: .25em; }
+
+form.form-group a:hover {
+  text-decoration: none; }
+
+button #shadow:hover, #shadow:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em); }

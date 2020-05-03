@@ -5,15 +5,19 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "scss": "node-sass -o css/ css/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "author": "FYARDLEST",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4",
-    "node-sass": "^4.14.0"
+    "node-sass": "^4.14.0",
+    "onchange": "^7.0.2",
+    "parallelshell": "^3.0.1"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
