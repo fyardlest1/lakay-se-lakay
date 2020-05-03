@@ -1,6 +1,9 @@
 $(function () {
     // Pause and play Carousel Button
     $(".carousel").carousel({ interval: 3000 });
+
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
     
 });
 

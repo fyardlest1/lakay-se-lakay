@@ -65,9 +65,12 @@
     <section id="contactSection">
         <div class="container">
             <div class="row">
-                <div class="col-8 py-3 text-center">
+                <div class="col-8 py-3">
+                    <div class="text-center">
                     <h3 class="getInTouch">Get In Touch</h3>
                     <p class="contactUsSection mb-4">Please contact us if you need any further information</p>
+                    </div>
+                    <div class="col">
                     <form action="" class="form-group">
                         <div class="form-group row">
                             <div class="col-sm-2">
@@ -82,14 +85,14 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-sm-2">
-                                <label for="inputName" class="col-form-label">Phone #</label>
+                                <label for="areaCode" class="col-form-label">Phone #</label>
                             </div>
                             <div class="col-3">
-                                <input type="text" class="form-control" id="inputName" placeholder="Area Code"
+                                <input type="tel" class="form-control" id="areaCode" placeholder="Area Code"
                                     value="+1">
                             </div>
                             <div class="col">
-                                <input type="tel" class="form-control" id="inputName" placeholder="Phone Number"
+                                <input type="tel" class="form-control" name="telNum" id="inputName" placeholder="Phone Number"
                                     required>
                             </div>
                         </div>
@@ -120,12 +123,12 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-2"></div>
-                            <div class="col">
+                            <div class="offset-md-2 col-md-10">
                                 <button class="btn btn-info d-none d-block bnt-lg" type="submit">Submit Form</button>
                             </div>
                         </div>
                     </form>
+                    </div>
                 </div>
                 <div class="col-lg-4 align-self-center py-4 text-center bg-light">                    
                     <div class="row">
@@ -136,7 +139,7 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p><i class="fas fa-phone-volume"></i> <span>509 - 37 08 05 65</span></p>
+                            <p><i class="fas fa-phone-volume"></i> <span>+1 509 - 37 08 05 65</span></p>
                         </div>
                     </div>
                     <div class="row">
@@ -182,10 +185,10 @@
         <div class="container text-center text-md-left px-5">
             <div class="row">
                 <!-- Copyright -->
-                <div class="col-6 footer-copyright pt-2 pb-5">© 2020 Copyright -
+                <div class="col-6 footer-copyright py-2">© 2020 Copyright -
                     <a href="https://fyardlest.net/" class="text-warning"> FYARDLEST.NET</a>
                 </div>
-                <div class="col footer-copyright pt-2 pb-5">
+                <div class="col footer-copyright py-2">
                     <ul class="list-unstyled list-inline float-right">
                         <li class="list-inline-item">
                             <a class="btn-floating btn-fb mx-1">
@@ -218,9 +221,6 @@
     </script>
 
     <script>
-        // Get the current year for the copyright
-        $('#year').text(new Date().getFullYear())
-
         // Google reCaptcha
         grecaptcha.ready(function () {
             grecaptcha.execute('6LdDKvEUAAAAAHGR6Z_WHl1d3_hrimW1xbQM-oYV', {
