@@ -16,7 +16,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Courgette|Tangerine|Bangers|Lobster|Caveat|Dancing+Script|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <title>Lakay Se Lakay</title>
 
     <!-- GOOGLE RECAPTCHA -->
@@ -38,7 +38,7 @@
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
@@ -47,7 +47,7 @@
                     <li class="nav-item">
                         <a href="#services" class="nav-link">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a href="#contacts" class="nav-link">Contacts</a>
                     </li>
                     <li class="nav-item">
@@ -65,7 +65,7 @@
     <section id="contactSection">
         <div class="container">
             <div class="row">
-                <div class="col-9 py-3 text-center">
+                <div class="col-8 py-3 text-center">
                     <h3 class="getInTouch">Get In Touch</h3>
                     <p class="contactUsSection mb-4">Please contact us if you need any further information</p>
                     <form action="" class="form-group">
@@ -85,16 +85,19 @@
                                 <label for="inputName" class="col-form-label">Phone #</label>
                             </div>
                             <div class="col-3">
-                                <input type="text" class="form-control" id="inputName" placeholder="Area Code" value="+1">
+                                <input type="text" class="form-control" id="inputName" placeholder="Area Code"
+                                    value="+1">
                             </div>
                             <div class="col">
-                                <input type="tel" class="form-control" id="inputName" placeholder="Phone Number" required>
+                                <input type="tel" class="form-control" id="inputName" placeholder="Phone Number"
+                                    required>
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="inputEmail" class="col-sm-2 col-form-label">Your Email</label>
                             <div class="col">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" required>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email Address"
+                                    required>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -112,7 +115,8 @@
                         <div class="form-group row">
                             <label for="textArea" class="col-form-label col-sm-2">Message</label>
                             <div class="col">
-                                <textarea name="textArea" id="textArea" class="form-control" rows="7" required></textarea>
+                                <textarea name="textArea" id="textArea" class="form-control" rows="7"
+                                    required></textarea>
                             </div>
                         </div>
                         <div class="row">
@@ -120,19 +124,62 @@
                             <div class="col">
                                 <button class="btn btn-info d-none d-block bnt-lg" type="submit">Submit Form</button>
                             </div>
-                        </div>                        
+                        </div>
                     </form>
                 </div>
-                <div class="col-md-3">
-
+                <div class="col-lg-4 align-self-center py-4 text-center bg-light">                    
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="contactUsPart">Contact Us</h3>                            
+                            <p><i class="fas fa-map-marked-alt"></i> <span>298, Monseigneur Guilloux</span></p>                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><i class="fas fa-phone-volume"></i> <span>509 - 37 08 05 65</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p><i class="fas fa-envelope-open-text"></i> <span>fyardlest@fyardlest.net</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <!--Facebook-->
+                            <a class="btn-floating btn-lg btn-fb" type="button" role="button" href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <!--Twitter-->
+                            <a class="btn-floating btn-lg btn-tw" type="button" role="button" href="http://twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <!--Google +-->
+                            <a class="btn-floating btn-lg btn-gplus" type="button" role="button" href="http://google.com/"><i class="fab fa-google-plus-g"></i></a>
+                            <!--Linkedin-->
+                            <a class="btn-floating btn-lg btn-li" type="button" role="button" href="http://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                            <!--Instagram-->
+                            <a class="btn-floating btn-lg btn-ins" type="button" role="button" href="http://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- THE GOOGLE MAP SECTION -->
+    <section id="findUs">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-4">
+                    <h3>Find Us</h3>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+        
+        </div>
+    </section>
+
     <!-- FOOTER SECTION -->
     <footer class="page-footer font-small bg-dark text-white pt-4">
-        <div class="container-fluid text-center text-md-left px-5">
+        <div class="container text-center text-md-left px-5">
             <div class="row">
                 <!-- Copyright -->
                 <div class="col-6 footer-copyright pt-2 pb-5">© 2020 Copyright -
@@ -167,6 +214,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="scripts/scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
 
     <script>
         // Get the current year for the copyright
@@ -174,10 +223,10 @@
 
         // Google reCaptcha
         grecaptcha.ready(function () {
-                grecaptcha.execute('6LdDKvEUAAAAAHGR6Z_WHl1d3_hrimW1xbQM-oYV', {
-                    action: 'contactPage'
-                });
+            grecaptcha.execute('6LdDKvEUAAAAAHGR6Z_WHl1d3_hrimW1xbQM-oYV', {
+                action: 'contactPage'
             });
+        });
     </script>
 </body>
 
