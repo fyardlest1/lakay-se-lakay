@@ -3,6 +3,7 @@ $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
+$color-orange: #F6AA1C;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
 
 body {
@@ -20,7 +21,7 @@ h1, h2, h3, .footerP {
     }
 }
 
-.latestPost {
+.latestPost, .serviceId {
     font-family: "Caveat", sans-serif;
     font-size: 2rem;
 }
@@ -46,7 +47,7 @@ h1, h2, h3, .footerP {
 }
 
 .navbar {
-    border-bottom: #F6AA1C 3px solid;
+    border-bottom: $color-orange 3px solid;
     opacity: 0.9;
 }
 
@@ -112,7 +113,6 @@ h1, h2, h3, .footerP {
  #map {
    width: 100%;
    height: 400px;
-   background-color: grey;
  }
 
  #findUs h3  {
@@ -183,6 +183,36 @@ button #shadow:hover, #shadow:focus {
   font-size: 15px;
     }
 }
+
+// Services Page
+#header-services {
+    height: 315px;
+    background: url("../img/image2.jpg");
+    background-position: 0 -820px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: #eee;
+    padding-top: 130px;
+}
+
+#faq .card {
+    border: #ffd166;
+}
+
+#faq .card-header {
+    background: #4c96cb;
+    .card-body {
+        background: #00afb9;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+
+
+
 
 
 

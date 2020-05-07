@@ -8,7 +8,7 @@ h1, h2, h3, .footerP {
   color: #ef476f;
   font-size: 2rem; }
 
-.latestPost {
+.latestPost, .serviceId {
   font-family: "Caveat", sans-serif;
   font-size: 2rem; }
 
@@ -79,8 +79,7 @@ h1, h2, h3, .footerP {
 /* Adding Map to the Site */
 #map {
   width: 100%;
-  height: 400px;
-  background-color: grey; }
+  height: 400px; }
 
 #findUs h3 {
   color: #fff; }
@@ -134,3 +133,23 @@ button #shadow:hover, #shadow:focus {
   .placeHolder .placeHolder:-ms-input-placeholder {
     /* Internet Explorer 10+ */
     font-size: 15px; }
+
+#header-services {
+  height: 315px;
+  background: url("../img/image2.jpg");
+  background-position: 0 -820px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: #eee;
+  padding-top: 130px; }
+
+#faq .card {
+  border: #ffd166; }
+
+#faq .card-header {
+  background: #4c96cb; }
+  #faq .card-header .card-body {
+    background: #00afb9; }
+  #faq .card-header a {
+    color: #fff;
+    text-decoration: none; }
