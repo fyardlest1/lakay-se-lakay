@@ -54,12 +54,39 @@
                         <a href="signin.html" class="nav-link">Sign In</a>
                     </li>
                 </ul>
-                <a href="#">
+                <a href="#" id="searchIcon">
                     <i class="fas fa-search d-inline ml-2"></i>
                 </a>
             </div>
         </div>
     </nav>
+                
+    <!-- Setting up the modal for search button -->
+    <div id="searchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center bg-info">
+                    <h2 class="text-white">Find Your Dreaming House</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="row form-group mt-1">
+                                <div class="col-md-9">
+                                    <input class="form-control" type="text" id="search" name="search"
+                                        placeholder="Search here">
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-primary form-group">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- HEADER SECTION -->
     <header id="header-services">
@@ -72,6 +99,59 @@
             </div>
         </div>
     </header>
+
+    <!-- OVERVIEW SECTION -->
+    <section id="overview" class="OverviewPart pb-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">                    
+                    <div class="card text-center pb-1 clean-Header">
+                        <div class="card-body">
+                            <img class="img-fluid rounded-circle d-none d-md-block w-100 mb-3" src="img/searchIt1.jpg" alt="Card image cap">
+                            <h3>Search It</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nisi velit voluptatum sunt numquam, quas magni quae id nemo eius!</p>
+                            <a href="#" class="btn btn-primary hoverOn">How To</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center pb-1 clean-Header">
+                        <div class="card-body">
+                            <img class="img-fluid rounded-circle d-none d-md-block w-100 mb-3" src="img/accessIt.jpg"
+                                alt="Card image cap">
+                            <h3>Access It</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nisi velit voluptatum sunt numquam, quas magni quae id nemo eius!</p>
+                            <a href="#" class="btn btn-primary hoverOn">How To</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center pb-1 clean-Header">
+                        <div class="card-body">
+                            <img class="img-fluid rounded-circle d-none d-md-block w-100 mb-3" src="img/take-it2.jpg"
+                                alt="Card image cap">
+                            <h3>Take It</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nisi velit voluptatum sunt numquam, quas magni quae id nemo eius!</p>
+                            <a href="#" class="btn btn-primary hoverOn">How To</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES HEAD SECTION -->
+    <section id="servicesHead">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-4">
+                    <h3 class="display-4">Add It</h3>
+                    <p class="add-It-Head text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, omnis nulla. Tempora dolorum numquam ab quos laudantium, harum libero blanditiis.</p>
+                    <a href="#" class="btn btn-secondary">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- SERVICES SECTION -->
     <section id="services" class="py-5">
@@ -87,16 +167,16 @@
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa.</p>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature One
+                                    <i class="fas fa-check"></i> Feature 1
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Two
+                                    <i class="fas fa-check"></i> Feature 2
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Three
+                                    <i class="fas fa-check"></i> Feature 3
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Four
+                                    <i class="fas fa-check"></i> Feature 4
                                 </li>
                             </ul>
                             <a href="" class="btn btn-outline-danger btn-block mt-2">Get It Now</a>
@@ -114,16 +194,16 @@
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa.</p>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature One
+                                    <i class="fas fa-check"></i> Feature 1
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Two
+                                    <i class="fas fa-check"></i> Feature 2
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Three
+                                    <i class="fas fa-check"></i> Feature 3
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Four
+                                    <i class="fas fa-check"></i> Feature 4
                                 </li>
                             </ul>
                             <a href="" class="btn btn-outline-success btn-block mt-2">Get It Now</a>
@@ -141,16 +221,16 @@
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa.</p>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature One
+                                    <i class="fas fa-check"></i> Feature 1
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Two
+                                    <i class="fas fa-check"></i> Feature 2
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Three
+                                    <i class="fas fa-check"></i> Feature 3
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Four
+                                    <i class="fas fa-check"></i> Feature 4
                                 </li>
                             </ul>
                             <a href="" class="btn btn-outline-warning btn-block mt-2">Get It Now</a>
@@ -170,43 +250,43 @@
                 <div class="col-md-6">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header" id="headingOne">
+                            <div role="tab" class="card-header" id="headingOne">
                                 <h5 class="mb-0">
-                                    <a href="#collapseOne" data-toggle="collapse" data-parent="accordion">
+                                    <a data-toggle="collapse" data-target="#collapseOne">
                                         <h6>Question #1</h6>
                                     </a>
                                 </h5>
                             </div>
                     
-                            <div id="collapseOne" class="collapse">
+                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
                                 <div class="card-body">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam tempore esse quam voluptatem aut alias deserunt, adipisci blanditiis ea, fugit nulla. Et, qui nostrum. Minus veniam sed voluptate eius distinctio?
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingTwo">
+                            <div role="tab" class="card-header" id="headingTwo">
                                 <h5 class="mb-0">
-                                    <a href="#collapseTwo" data-toggle="collapse" data-parent="accordion">
+                                    <a data-target="#collapseTwo" data-toggle="collapse">
                                         <h6>Question #2</h6>
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseTwo" class="collapse">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam tempore esse quam voluptatem aut alias deserunt, adipisci blanditiis ea, fugit nulla. Et, qui nostrum. Minus veniam sed voluptate eius distinctio?
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingThree">
+                            <div role="tab" class="card-header" id="headingThree">
                                 <h5 class="mb-0">
-                                    <a href="#collapseThree" data-toggle="collapse" data-parent="accordion">
+                                    <a data-target="#collapseThree" data-toggle="collapse">
                                         <h6>Question #3</h6>
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseThree" class="collapse">
+                            <div id="collapseThree" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam tempore esse quam voluptatem aut alias deserunt, adipisci blanditiis ea, fugit nulla. Et, qui nostrum. Minus veniam sed voluptate eius distinctio?
                                 </div>
@@ -217,43 +297,43 @@
                 <div class="col-md-6">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header" id="headingFour">
+                            <div role="tab" class="card-header" id="headingFour">
                                 <h5 class="mb-0">
-                                    <a href="#collapseFour" data-toggle="collapse" data-parent="accordion">
+                                    <a data-target="#collapseFour" data-toggle="collapse">
                                         <h6>Question #4</h6>
                                     </a>
                                 </h5>
                             </div>
                     
-                            <div id="collapseFour" class="collapse">
+                            <div id="collapseFour" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam tempore esse quam voluptatem aut alias deserunt, adipisci blanditiis ea, fugit nulla. Et, qui nostrum. Minus veniam sed voluptate eius distinctio?
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingFive">
+                            <div role="tab" class="card-header" id="headingFive">
                                 <h5 class="mb-0">
-                                    <a href="#collapseFive" data-toggle="collapse" data-parent="accordion">
+                                    <a data-target="#collapseFive" data-toggle="collapse">
                                         <h6>Question #5</h6>
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseFive" class="collapse">
+                            <div id="collapseFive" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam tempore esse quam voluptatem aut alias deserunt, adipisci blanditiis ea, fugit nulla. Et, qui nostrum. Minus veniam sed voluptate eius distinctio?
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingSix">
+                            <div role="tab" class="card-header" id="headingSix">
                                 <h5 class="mb-0">
-                                    <a href="#collapseSix" data-toggle="collapse" data-parent="#accordion">
+                                    <a data-target="#collapseSix" data-toggle="collapse">
                                         <h6>Question #6</h6>
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseSix" class="collapse">
+                            <div id="collapseSix" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam tempore esse quam voluptatem aut alias deserunt, adipisci blanditiis ea, fugit nulla. Et, qui nostrum. Minus veniam sed voluptate eius distinctio?
                                 </div>

@@ -21,9 +21,9 @@ h1, h2, h3, .footerP {
     }
 }
 
-.latestPost, .serviceId {
+.latestPost, .serviceId, .add-It-Head {
     font-family: "Caveat", sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .card-text {
@@ -192,27 +192,57 @@ button #shadow:hover, #shadow:focus {
     background-attachment: fixed;
     color: #fff;
     border-bottom: #eee;
-    padding-top: 130px;
+    padding-top: 125px;
 }
 
 #faq .card {
     border: #ffd166;
+
+    .card-body {
+        background: #2f587b;
+    }
 }
 
 #faq .card-header {
     background: #4c96cb;
-    .card-body {
-        background: #00afb9;
-    }
+    
     a {
         color: #fff;
         text-decoration: none;
     }
 }
 
+.clean-Header {
+    width: 100%;
+    margin: auto;
+}
 
+#overview {
+    padding-top: 70px;
 
+    img {
+        margin-top: -120px;
+    }
 
+    .card:hover {
+        background: #2f587b;
+        color: #fff;
+    }
+}
+
+#servicesHead {
+    background: #2f587b;
+
+    h3 {
+    color:#fff;
+    font-size: 2rem;
+    }    
+}
+
+.hoverOn:hover {
+    background: #fff;
+    color: #000;
+}
 
 
 

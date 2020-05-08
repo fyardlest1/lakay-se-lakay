@@ -54,12 +54,39 @@
                         <a href="#" class="nav-link">Sign In</a>
                     </li>
                 </ul>
-                <a href="#">
+                <a href="#" id="searchIcon">
                     <i class="fas fa-search d-inline ml-2"></i>
                 </a>
             </div>
         </div>
     </nav>
+    
+    <!-- Setting up the modal for search button -->
+    <div id="searchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center bg-info">
+                    <h2 class="text-white">Find Your Dreaming House</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="row form-group mt-1">
+                                <div class="col-md-9">
+                                    <input class="form-control" type="text" id="search" name="search"
+                                        placeholder="Search here">
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-primary form-group">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- SIGN IN SECTION -->
     <div class="container" id="signInSection">
@@ -69,8 +96,7 @@
                     <ul class="nav nav-tabs text-center">
                         <li class="nav-item text-uppercase col-md-6"><a class="nav-link active" href="#signIn"
                                 role="tab" data-toggle="tab">Sign In</a></li>
-                        <li class="nav-item text-uppercase col-md-6"><a class="nav-link" href="#signUp" role="tab"
-                                data-toggle="tab">Sign Up</a>
+                        <li class="nav-item text-uppercase col-md-6"><a class="nav-link" href="#signUp" role="tab" data-toggle="tab">Sign Up</a>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -79,8 +105,7 @@
                             <div class="text-center">
                                 <h2 class="mt-3">Sign in to your account</h2>
                             </div>
-                            <p class="form-text text-muted sizing">No more pain to find the house of your choice.
-                                <br>No more pain to sell your house and terrain.
+                            <p class="form-text text-muted sizing">No more pain to find the house of your choice. <br>No more pain to sell your house and terrain.
                             </p>
                             <div class="col">
                                 <form action="" class="formGroup" id="formGroup">

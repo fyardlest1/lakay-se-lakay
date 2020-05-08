@@ -8,9 +8,9 @@ h1, h2, h3, .footerP {
   color: #ef476f;
   font-size: 2rem; }
 
-.latestPost, .serviceId {
+.latestPost, .serviceId, .add-It-Head {
   font-family: "Caveat", sans-serif;
-  font-size: 2rem; }
+  font-size: 1.6rem; }
 
 .card-text {
   font-family: "Open Sans", sans-serif; }
@@ -141,15 +141,37 @@ button #shadow:hover, #shadow:focus {
   background-attachment: fixed;
   color: #fff;
   border-bottom: #eee;
-  padding-top: 130px; }
+  padding-top: 125px; }
 
 #faq .card {
   border: #ffd166; }
+  #faq .card .card-body {
+    background: #2f587b; }
 
 #faq .card-header {
   background: #4c96cb; }
-  #faq .card-header .card-body {
-    background: #00afb9; }
   #faq .card-header a {
     color: #fff;
     text-decoration: none; }
+
+.clean-Header {
+  width: 100%;
+  margin: auto; }
+
+#overview {
+  padding-top: 70px; }
+  #overview img {
+    margin-top: -120px; }
+  #overview .card:hover {
+    background: #2f587b;
+    color: #fff; }
+
+#servicesHead {
+  background: #2f587b; }
+  #servicesHead h3 {
+    color: #fff;
+    font-size: 2rem; }
+
+.hoverOn:hover {
+  background: #fff;
+  color: #000; }

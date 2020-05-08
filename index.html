@@ -49,12 +49,38 @@
                         <a href="signin.html" class="nav-link">Sign In</a>
                     </li>
                 </ul>
-                <a href="#">
+                <a href="#" id="searchIcon">
                     <i class="fas fa-search d-inline ml-2"></i>
                 </a>
             </div>
         </div>
     </nav>
+
+    <!-- Setting up the modal for search button -->
+    <div id="searchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center bg-info">
+                    <h2 class="text-white">Find Your Dreaming House</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>                            
+                            <div class="row form-group mt-1">                                
+                                <div class="col-md-9">
+                                    <input class="form-control" type="text" id="search" name="search" placeholder="Search here">                                    
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-primary form-group">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- ADDING THE TOP CAROUSEL -->
     <header id="carouSlider">
@@ -90,7 +116,7 @@
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="img/mountains.jpg" class="card-img-top" alt="...">
+                        <img src="img/house1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">House</h5>
                             <p class="card-text text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit excepturi delectus reiciendis, ipsam quia, alias officiis dolore quo placeat voluptas quam iste architecto illum.</p>
@@ -100,7 +126,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="img/mountains.jpg" class="card-img-top" alt="...">
+                        <img src="img/image44.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Appartment</h5>
                             <p class="card-text text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit excepturi delectus reiciendis, ipsam quia, alias officiis dolore quo placeat voluptas quam iste architecto illum.</p>
@@ -110,7 +136,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="img/mountains.jpg" class="card-img-top" alt="...">
+                        <img src="img/walking-1149747.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Terrain</h5>
                             <p class="card-text text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit excepturi delectus reiciendis, ipsam quia, alias officiis dolore quo placeat voluptas quam iste architecto illum.</p>
